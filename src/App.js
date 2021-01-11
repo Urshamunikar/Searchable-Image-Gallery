@@ -17,7 +17,7 @@ const App = () => {
     const response = await axios.get(
       `https://api.unsplash.com/search/photos?page=1&query=${
         !input ? 'dog' : input
-      }&client_id=yourclientidhere`
+      }&client_id=ff72koxkHRsI6u-gN9VytgQ4IlXRjUavaCpQsG6nMeQ&per_pa`
       )
     const data = await response.data;
    
